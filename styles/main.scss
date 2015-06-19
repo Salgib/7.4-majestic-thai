@@ -1,3 +1,4 @@
+@import '../bower_components/pure/pure';
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
@@ -18,4 +19,36 @@ body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+}
+
+
+.appmenu {
+  width: 800px;
+  float: left;
+}
+
+.appcart {
+  width: 300px;
+  float: left;
+  background-color: green;
+}
+
+li {
+  list-style: none;
+}
+
+h3 {
+  margin: 30px 5px 5px;
+}
+
+
+
+.item-price,
+.item-description {
+  margin-left: 5px;
+}
+
+.item-price {
+  float: right;
+  clear: both;
 }
